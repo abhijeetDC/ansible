@@ -7,7 +7,7 @@
     - name: enable apache on reboot
       service: name=httpd enabled=yes
     - name: install app on apache
-      copy: src=index.html dest=/var/www/html/
+      copy: src=hello_world.html dest=/var/www/html/
     - name: start apache
       service: name=httpd state=started
 
