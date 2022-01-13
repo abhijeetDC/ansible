@@ -10,5 +10,3 @@
       copy: src=index.html dest=/var/www/html/
     - name: start apache
       service: name=httpd state=started
-
-
